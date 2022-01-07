@@ -1,0 +1,168 @@
+
+
+
+.banner_profile {
+    background-image: url('../img/banner/banner_lienhe.jpg');
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    margin-bottom: 30px;
+}
+.banner_profile-title {
+    color: #fff;
+}
+.banner_profile-link a,
+.banner_profile-link span {
+    color: #fff;
+}
+.banner_profile-link a::after {
+    content: "/";
+    color: #fff;
+    padding-left: 6px;
+}
+.active_list-feature {
+    background-color: beige;
+}
+.profile-feature-item {
+    padding: 3px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.content {
+    margin-bottom: 30px;
+}
+/* hide freature */
+.sec-2-tab-2,
+.sec-2-tab-3,
+.sec-2-tab-4,
+.sec-2-tab-5 {
+    display: none;
+}
+
+.sec-2-tab-1-edit {
+    width:200px;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.sec-2-tab-1-in {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+/* change password */
+
+.tab-3-from-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.tab-3-from-group span {
+    color: red;
+}
+.tab-3-input {
+    height: 40px;
+    padding: 2px 10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.tab-3-submit {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 4px 20px;
+    border-radius: 4px;
+}
+.tab-3-submit:hover {
+    background-color: rgb(47, 47, 47);
+}
+
+/* cart */
+.cartname-img-i {
+    width: 40px;
+    height: 40px;
+}
+.flex-input-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sec-2-pay {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+.sum-cost {
+    color: rgb(197, 40, 40);
+    font-size: 20px;
+}
+.btn-sum-now {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+/* order */
+.border-bottom-li {
+    border-bottom: 1px solid #2d8399;
+}
+.p-order-list {
+    border: 3px solid #2d8399;
+}
+.p-order-item-head {
+    background-color: #2d8399;
+    color: white;
+  
+}
+.p-order-item-head-grid div {
+    text-align: center;
+}
+.p-order-item-detail-p  div{
+    text-align: center;
+}
+.active-view-order {
+    background-color: rgb(179, 240, 245);
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+.row-order {
+    width: 100%;
+    margin: 0;
+}
+.row-order div {
+    width: 100%;
+    text-align: center;
+}
+.row-order-head {
+    background-color: greenyellow;
+}
+
+/* hide detail */
+.order-detail {
+    display: none;
+}
+
+.btn-view-detail {
+    cursor: pointer;
+}
+
+.hide-up {
+    display: none;
+    
+}
+.btn-view-detail {
+    text-align: center;
+}

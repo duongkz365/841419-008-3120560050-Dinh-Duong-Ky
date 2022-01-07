@@ -1,0 +1,44 @@
+
+
+
+/* banner */
+.banner_shop-title-h2 {
+    color: white;
+    font-size: 30px;
+}
+.banner_shop-link a,
+.banner_shop-link span {
+    color: white;
+}
+.banner_shop-link a::after {
+    content: "/";
+    padding-left: 10px;
+}
+.banner_all-shop {
+    background-image: url("../img/banner/banner_lienhe.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 60px 10px;
+}
+.cancel-filter-range {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.img_search-product {
+    width: 100%;
+    height: 250px;
+}
+.search-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content {
+    margin-bottom: 30px;
+}
+.all-list-page-active {
+    background-color: #000;
+    color: white;
+}

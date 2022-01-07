@@ -1,0 +1,44 @@
+.contact-section-banner {
+    background-image: url('../img/banner/banner_lienhe.jpg');
+    padding: 50px 0;
+}
+.contact-content-title {
+    color: #fff;
+}
+.contact-content-link a,
+.contact-content-link span {
+    color: #fff;
+}
+.contact-content-link a::after {
+    content: "/";
+    color: #fff;
+    padding-left: 6px;
+}
+.contact-section-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-content-left-bot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-content-left-bot {
+    margin-top: 20px;
+}
+.contact-content-left-bot-input {
+    outline: none;
+    height: 40px;
+    padding: 3px 10px;
+}
+.contact-content-left-bot-textarea {
+    outline: none;
+    padding: 3px 10px;
+}
+.btn-send-contact {
+    background-color: black;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px 20px;
+}

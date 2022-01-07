@@ -1,0 +1,112 @@
+/* banner */
+.product-banner-section {
+    background-image: url('../img/banner/banner_lienhe.jpg');
+    padding: 60px;
+    background-repeat: no-repeat;
+}
+.producut-banner-h3 {
+    font-size: 36px;
+    color: white;
+}
+.prouduct-banner-link a,
+.prouduct-banner-link span {
+    color: white;
+    font-size: 16px;
+}
+.prouduct-banner-link a::after {
+    content: "/";
+    padding-left: 8px;
+}
+
+/* Single Product: Một sản phẩm */
+.product-single {
+    margin-top: 30px;
+}
+
+.product-single-left img{
+width: 100%;
+}
+.product-right-rate {
+    display: flex;
+    gap: 10px;
+}
+.product-right-rate-left {
+    color: rgb(255, 230, 0);
+
+}
+.product-right-cost {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.current-cost {
+    font-size: 23px;
+    color: rgb(185, 43, 43);
+    font-weight: bold;
+}
+.old-cost {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.product-right-add-cart {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+}
+#input-quantity {
+    text-align: right;
+ 
+}
+#btn-add-cart {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 3px 20px;
+    border-radius: 7px;
+}
+/* Related Product: Sản phẩm liên quan */
+.product-related {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.product-related-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.product-related-image img {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+}
+.product-related-content {
+   text-align: center;
+}
+.product-related-content-title {
+    font-size: 18px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-related-content-cost-current {
+    font-size: 16px;
+    color: red;
+}
+.product-related-content-cost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.product-related-content-cost-old {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.slick-arrow {
+    display: none !important;
+}
+.product-related-mid:hover > .slick-arrow {
+    display: flex !important;
+}

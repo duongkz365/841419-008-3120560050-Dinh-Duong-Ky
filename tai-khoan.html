@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title-main">Trang cá nhân</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/img/logo/logo_title.png">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <script src="./assets/js/jquery.js"></script>
+</head>
+<body>
+    <div class="wrapper-profile">
+        <header class="header"></header>
+        <div class="content">
+            <div class="banner_profile">
+                <div class="container">
+                    <h3 class="banner_profile-title banner_name">
+                        Trang Cá Nhân
+                    </h3>
+                    <div class="banner_profile-link">
+                        <a href="./index.html">Trang Chủ</a>
+                        <span class="banner_name">Trang Cá Nhân</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content-profile">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-6">
+                            <h3 class="profile-feature-title">
+                                Xin Chào! Kỳ Đinh
+                            </h3>
+                         <ul class="profile-feature-list">
+                            <li class="profile-feature-item active_list-feature" id="info-item">
+                                Thông tin cá nhân
+                            </li>
+                            <li class="profile-feature-item" id="cart-item">
+                                Giỏ hàng
+                            </li>
+                            <li class="profile-feature-item" id="password-item">
+                                Đổi mật khẩu
+                            </li>
+                            
+                            <li class="profile-feature-item" id="order-item">
+                                Đơn Mua
+                             </li>
+                         </ul>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-6">
+                         <section class="sec-2-tab-1">
+                             <h2 class="sec-2-tab-1-title">
+                                 THÔNG TIN TÀI KHOẢN
+                             </h2>
+                             <div class="row">
+                                 <div class="col col-xl-2 col-lg-3 col-md-4 col-sm-3 col-3">
+                                     <span class="sec-2-tab-1-info align-self-center">
+                                         Họ Tên:
+                                     </span>
+                                 </div>
+                                 <div class="col col-xl-10 col-lg-9 col-md-8 col-sm-9 col-9">
+                                     <span class="sec-2-tab-1-in align-self-center" id="p_name">
+                                         <!-- render Name -->
+                                     </span>
+                                 </div>
+                                 <div class="col col-xl-2 col-lg-3 col-md-4 col-sm-3 col-3">
+                                     <span class="sec-2-tab-1-info align-self-center">
+                                         Email:
+                                     </span>
+                                 </div>
+                                 <div class="col col-xl-10 col-lg-9 col-md-8 col-sm-9 col-9">
+                                     <span class="sec-2-tab-1-in align-self-center" id="p_email">
+                                         <!-- render Email -->
+                                     </span>
+                                 </div>
+                                 <div class="col col-xl-2 col-lg-3 col-md-4 col-sm-3 col-3">
+                                     <span class="sec-2-tab-1-info align-self-center">
+                                         Ngày Sinh:
+                                     </span>
+                                 </div>
+                                 <div class="col col-xl-10 col-lg-9 col-md-8 col-sm-9 col-9">
+                                     <span class="sec-2-tab-1-in align-self-center align-self-center" id="p_day">
+                                         <!-- render Day of birth -->
+                                     </span>
+                                 </div>
+                                 <div class="col col-xl-2 col-lg-3 col-md-4 col-sm-3 col-3">
+                                     <span class="sec-2-tab-1-info align-self-center">
+                                         Số điện thoại:
+                                     </span>
+                                 </div>
+                                 <div class="col col-xl-10 col-lg-9 col-md-8 col-sm-9 col-9">
+                                     <span class="sec-2-tab-1-in align-self-center" id="p_phone">
+                                        <!-- render Phone -->
+                                     </span>
+                                 </div>
+                             </div>
+                             <span class="sec-2-tab-1-edit">
+                                 Chỉnh Sửa Thông Tin
+                             </span>
+                         </section>
+                         <section class="sec-2-tab-2">
+                            <h2 class="sec-2-tab-2-title">
+                                Giỏ hàng của bạn
+                            </h2>
+                            
+                            <ul class="listCart-list">
+                                <!-- render cart -->
+                            </ul>
+                            <div class="sec-2-pay">
+                                <span class="quantity-sum">Tổng tiền (0 sản phẩm)</span>
+                                <span class="sum-cost">0 VND</span>
+                                <button type="button" class="btn-sum-now">Mua ngay</button>
+                            </div>
+                        </section>
+                        <section class="sec-2-tab-3">
+                            <h2 class="sec-2-tab-3-title">
+                                ĐỔI MẬT KHẨU
+                            </h2>
+                            <p class="sec-2-tab-3-description">
+                                Để đảm bảo tính bảo mật vui lòng đặt mật khẩu với ít nhất 8 ký tự
+                            </p>
+                            <form action="" class="sec-2-tab-3-form">
+                                <div class="tab-3-from-group">
+                                    <label for="tab-3-oldPassword">Mật Khẩu Cũ</label>
+                                    <input type="password" class="tab-3-input" id="tab-3-oldPassword">
+                                    <span class="tab-3-oldPassword-span"></span>
+                                </div>
+                                <div class="tab-3-from-group">
+                                    <label for="tab-3-newPassword">Mật Khẩu Mới</label>
+                                    <input type="password" class="tab-3-input" id="tab-3-newPassword">
+                                    <span class="tab-3-newPassword-span"></span>
+                                </div>
+                                <div class="tab-3-from-group">
+                                    <label for="tab-3-reNewPassword">Nhập lại mật khẩu</label>
+                                    <input type="password" class="tab-3-input" id="tab-3-reNewPassword">
+                                    <span class="tab-3-reNewPassword-span"></span>
+                                </div>
+                                <button type="button" class="tab-3-submit" onclick="changePassword()">Đặt Lại Mật Khẩu</button>
+                            </form>
+                        </section>
+                        
+                        <section class="sec-2-tab-5">
+                            <h2 class="sec-2-tab-5-title">
+                                Đơn Đã Mua
+                            </h2>
+                            <ul class="p-order-list" id="p-order-list">
+                                <li class="p-order-item-head border-bottom-li">
+                                    <div class="row p-order-item-head-grid">
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Mã Đơn Hàng</div>
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Ngày Mua</div>
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Số tiền</div>
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Xem Chi Tiết</div>
+                                    </div>
+                                </li>
+                                <li class="p-order-item border-bottom-li">
+                                    <div class="row p-order-item-detail-p active-view-order">
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Đơn Hàng 1</div>
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">12/12/12</div>
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">223132</div>
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"><i class="fal fa-eye"></i></div>
+                                    </div>
+                                    <div class="order-detail">
+                                        <ul class="order-detail-list">
+                                            <li class="order-detail-item">
+                                                <div class="row row-order">
+                                                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-3">Mã SP</div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Tên SP</div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">SL</div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Giá</div>
+                                                </div>
+                                            </li>
+                                            <li class="order-detail-item">
+                                                <div class="row row-order">
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Mã SP1</div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Tên SP1</div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">S1L</div>
+                                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">Giá1</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                            <!-- <table id="order_table-buy">
+                                <thead>
+                                    <tr>
+                                        <td class="order_tHead"> Mã Sản Phẩm </td>
+                                        <td class="order_tHead">Loại Sản Phẩm</td>
+                                        <td class="order_tHead">Tên Sản Phẩm</td>
+                                        <td class="order_tHead">Giá Bán</td>
+                                        <td class="order_tHead">Số Lượng</td>
+                                        <td class="order_tHead">Tổng Tiền</td>
+                                        <td class="order_tHead">Ngày Mua</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="order_tBody-item">121321</td>
+                                        <td class="order_tBody-item">Bút</td>
+                                        <td class="order_tBody-item">Bút Bi Viêt Nhanh Nhưng Không Viết Được</td>
+                                        <td class="order_tBody-item">12900đ</td>
+                                        <td class="order_tBody-item">12</td>
+                                        <td class="order_tBody-item">453343đ</td>
+                                        <td class="order_tBody-item">12/12/1223</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order_tBody-item">121321</td>
+                                        <td class="order_tBody-item">Bút</td>
+                                        <td class="order_tBody-item">Bút Bi Viêt Nhanh Nhưng Không Viết Được</td>
+                                        <td class="order_tBody-item">12900đ</td>
+                                        <td class="order_tBody-item">12</td>
+                                        <td class="order_tBody-item">453343đ</td>
+                                        <td class="order_tBody-item">12/12/1223</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order_tBody-item">121321</td>
+                                        <td class="order_tBody-item">Bút</td>
+                                        <td class="order_tBody-item">Bút Bi Viêt Nhanh Nhưng Không Viết Được</td>
+                                        <td class="order_tBody-item">12900đ</td>
+                                        <td class="order_tBody-item">12</td>
+                                        <td class="order_tBody-item">453343đ</td>
+                                        <td class="order_tBody-item">12/12/1223</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order_tBody-item">121321</td>
+                                        <td class="order_tBody-item">Bút</td>
+                                        <td class="order_tBody-item">Bút Bi Viêt Nhanh Nhưng Không Viết Được</td>
+                                        <td class="order_tBody-item">12900đ</td>
+                                        <td class="order_tBody-item">12</td>
+                                        <td class="order_tBody-item">453343đ</td>
+                                        <td class="order_tBody-item">12/12/1223</td>
+                                    </tr>
+                                   
+                                </tbody>
+                            </table> -->
+                           
+                        </section>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer"></footer>
+    </div>
+    <div class="modal_login-register"></div>
+    <div class="form_login"></div>
+    <div class="form_register"></div>
+    <div class="form_search"></div>
+</body>
+<script src="./assets/js/header.js"></script>
+<script src="./assets/js/profile.js"></script>
+</html>

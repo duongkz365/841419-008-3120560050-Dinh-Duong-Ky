@@ -1,0 +1,26 @@
+.about-section-banner {
+    background-image: url('../img/banner/banner_lienhe.jpg');
+    padding: 50px 0;
+}
+.about-content-title {
+    color: #fff;
+}
+.about-content-link a,
+.about-content-link span {
+    color: #fff;
+}
+.about-content-link a::after {
+    content: "/";
+    color: #fff;
+    padding-left: 6px;
+}
+
+.about-section-content-1 {
+    margin-top: 20px;
+}
+.sec-1-left img {
+    width: 100%;
+}
+.content {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,157 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Checkout || nelson</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/muahang.css">
+    <script src="./assets/js/jquery.js"></script>
+    <link rel="shortcut icon" type="image/png" href="./assets/img/logo/logo_title.png">
+
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <header class="header"></header>
+        <!-- Page Banner Section Start -->
+        <div class="content">
+            <div class="page-banner-section position-relative">
+              <div class="page-banner-img">
+                  <img src="assets/img/banner/banner_lienhe.jpg" alt="">
+              </div>
+              <div class="page-banner-content position-absolute">
+                  <div class="container">
+                          <div class="page-banner-text-left">
+                              <h2>Thủ Tục Thanh Toán</h2>
+                              <ul class="page-banner-list">
+                                  <li><a href="index.html">Trang Chủ</a></li>
+                                  <li>Thủ Tục Thanh Toán</li>
+                              </ul>
+                          </div>
+                  </div>
+              </div>
+            </div>
+            <div class="checkout-section section pt-90 pt-lg-70 pt-md-60 pt-sm-50 pt-xs-40  pb-70 pb-lg-50 pb-md-40 pb-sm-30 pb-xs-20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Checkout Form Start-->
+                            <form action="#" class="checkout-form">
+                                <div class="row row-40">
+                                    <div class="col-lg-7">
+                                        <!-- Billing Address -->
+                                        <div id="billing-form" class="mb-10">
+                                            <h4 class="checkout-title">Billing Address</h4>
+    
+                                            <div class="row">
+    
+                                                <div class="col-md-6 col-12 mb-20 input-group">
+                                                    <label>Họ và tên*</label>
+                                                    <input id="b-fullName" type="text" placeholder="Họ và tên">
+                                                    <span class="b-message"></span>
+                                                </div>
+    
+                                                <div class="col-md-6 col-12 mb-20 input-group">
+                                                    <label>Phương thức thanh toán</label>
+                                                    <select name="" id="b-payment-method" class="buy-select">
+                                                        <option value="0" class="buy-option" selected>Chọn phương thức</option>
+                                                        <option value="1" class="buy-option">Thanh toán khi nhận hàng</option>
+                                                        <option value="2" class="buy-option">Thanh toán khi nhận hàng</option>
+                                                    </select>
+                                                    <span class="b-message"></span>
+                                                </div>
+    
+                                                <div class="col-md-6 col-12 mb-20 input-group">
+                                                    <label>Địa chỉ Email*</label>
+                                                    <input id="b-email" type="email" placeholder="Địa chỉ Email">
+                                                    <span class="b-message"></span>
+                                                </div>
+    
+                                                <div class="col-md-6 col-12 mb-20 input-group">
+                                                    <label>Số điện thoại*</label>
+                                                    <input id="b-phone" type="text" placeholder="Số điện thoại">
+                                                    <span class="b-message"></span>
+                                                </div>
+                                                <div class="col-12 mb-20 input-group">
+                                                    <label>Tỉnh, Thành Phố</label>
+                                                    <select name="" id="b-province" class="buy-select">
+                                                        <option value="0" class="buy-option" selected>Chọn Tỉnh, Thành Phố</option>
+                                                    </select>
+                                                    <span class="b-message"></span>
+                                                </div>
+                                                <div class="col-12 mb-20 input-group">
+                                                    <label>Quận, Huyện</label>
+                                                    <select name="" id="b-district" class="buy-select">
+                                                        <option value="0" class="buy-option" selected>Chọn Quận, Huyện</option>
+                                                        <option value="1" class="buy-option">Việt Nam</option>
+                                                    </select>
+                                                    <span class="b-message"></span>
+                                                </div>
+                                                <div class="col-12 mb-20 input-group">
+                                                    <label>Phường, Xã</label>
+                                                    <select name="" id="b-wards" class="buy-select">
+                                                        <option value="0" class="buy-option" selected>Chọn Phường,Xã</option>
+                                                        <option value="1" class="buy-option">Việt Nam</option>
+                                                        <option value="2" class="buy-option">Việt Nam</option>
+                                                    </select>
+                                                    <span class="b-message"></span>
+                                                </div>
+                                                <div class="col-12 mb-20 input-group">
+                                                    <label>Ghi rõ địa chỉ (số nhà, đường,..)</label>
+                                                    <input id="b-apartmentnumber" type="text">
+                                                    <span class="b-message"></span>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="row">
+                                            <!-- Cart Total -->
+                                            <div class="col-12 mb-60">
+                                                <h4 class="checkout-title">Cart Total</h4>
+                                                <div class="checkout-cart-total">
+                                                    <h4 class="total-h4">Product <span>Total</span></h4>
+    
+                                                    <ul class="render-listcart-buy">
+                                                        <li class="render-listcart-item"> <span class="listcart-name"></span>  X 01 <span class="listcart-money">$20302</span></li>
+                                                    </ul>
+                                                    <div class="b-check-cart-total">
+                                                        <p class="b-space-between">Tạm Tính <span id="b-temp">0đ</span></p>
+                                                        <p class="b-space-between">Vận Chuyển <span id="b-shipping">00.00đ</span></p>
+                                                        <p class="b-space-between">VAT(20%) <span id="b-vat">00.00đ</span></p>
+                                                        <h4 class="b-space-between">Tổng <span id="b-total">296.00đ</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="b-controller-btn">
+                                                    <button type="button">Quay lại giỏ hàng</button>
+                                                    <button type="button" onclick="addOrder()">Mua Hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer"></footer>
+    </div>
+    <div class="modal_login-register"></div>
+    <div class="form_login"></div>
+    <div class="form_register"></div>
+    <div class="form_search"></div>
+</body>
+<script src="./assets/js/header.js"></script>
+<script src="./assets/js/buy.js"></script>
+</html>

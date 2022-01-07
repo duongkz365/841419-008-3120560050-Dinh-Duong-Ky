@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm Kiếm</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery.js"></script>
+    <link rel="stylesheet" href="./assets/css/search.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/logo/logo_title.png">
+
+</head>
+<body>
+   <div class="wrapper_search">
+       <header class="header"></header>
+       <div class="content">
+           <div class="banner_all-shop">
+               <div class="container">
+                   <div class="banner_shop-title">
+                       <h2 class="banner_shop-title-h2">
+                           Tìm Kiếm
+                       </h2>
+                       <div class="banner_shop-link">
+                           <a href="">Trang Chủ</a>
+                           <span>Tìm Kiếm</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="search-description">
+               <div class="container">
+                   <h3 class="title-search">Tìm Thấy 0 Sản phẩm với từ khóa '1212'</h3>
+               </div>
+           </div>
+           <div class="product_shop">
+               <div class="container">
+                   <div class="menu_sort">
+                       <div class="menu_sort-left">
+                           <span><i class="fa fa-th"></i></span>
+                           <span><i class="fal fa-list-ul"></i></span>
+                       </div>
+                       <div class="menu_sort-right">
+                           <label for="sortby">Sắp xếp theo</label>
+                           <select name="sortby" id="sortby">
+                               <option value="0" class="sortby-option">Mặc định</option>
+                               <option value="1" class="sortby-option">Giá Tăng Dần</option>
+                               <option value="2" class="sortby-option">Giá Giảm Dần</option>
+                           </select>
+                       </div>
+                   </div>
+                   <div class="all-product">
+                       <div class="row">
+                           <div class="col-xl-3 col-lg-3">
+                               <div class="filter-category">
+                                   <h3 class="filter-category-title">
+                                       Lọc Theo Danh Mục Sản Phẩm
+                                   </h3>
+                                   <ul class="filter-category-list">
+                                       <li class="filter-category-item">
+                                           <input type="checkbox" class="all checkbox-product" name="" id="checkbox1">
+                                           <label for="checkbox1">
+                                               
+                                               <span>Tất cả sản phẩm</span>
+                                               <span class="quantity-all">(20)</span>
+                                           </label>
+   
+                                       </li>
+                                       <li class="filter-category-item">
+                                           <input type="checkbox" class="office checkbox-product" name="" id="checkbox2">
+                                           <label for="checkbox2">
+                                               
+                                               <span>Nội thất văn phòng</span>
+                                               <span class="quantity-office">(20)</span>
+                                           </label>
+   
+                                       </li>
+                                       <li class="filter-category-item">
+                                           <input type="checkbox" class="kitchen checkbox-product" name="" id="checkbox3">
+                                           <label for="checkbox3">
+                                               
+                                               <span>Nội thất phòng ăn</span>
+                                               <span class="quantity-kitchen">(20)</span>
+                                           </label>
+                                       </li>
+                                       <li class="filter-category-item">
+                                           <input  type="checkbox" class=" bedroom checkbox-product" name="" id="checkbox4">
+                                           <label for="checkbox4">
+                                               
+                                               <span >Nội thất phòng ngủ</span>
+                                               <span class="quantity-bedroom">(20)</span>
+                                           </label>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="filter-cost">
+                                   <h3 class="filter-cost-title">
+                                       Lọc theo khoảng giá
+                                   </h3>
+                                   <div class="message-filter-range">
+                                       
+                                   </div>
+                                   <div class="filter-cost-group">
+                                       <div class="cost-group">
+                                           <label for="filter-cost-from">Từ</label>
+                                           <input type="number" class="filter-cost-input" id="filter-cost-from">
+                                       </div>
+                                       <div class="cost-group">
+                                           <label for="filter-cost-to">Đến</label>
+                                           <input type="number" class="filter-cost-input" id="filter-cost-to">
+                                       </div>
+                                   </div>
+                                   <div>
+                                       <button type="button" class="btn-apply-filter-cost">Áp dụng</button>
+                                   </div>
+                                   
+                               </div>
+                           </div>
+                           <div class="col-xl-9 col-lg-9">
+                              <div class="row product-render-all">
+                                  <!-- render Product Search -->
+                              </div>
+                              <ul class="product-page-list">
+                                <!-- render List Page -->
+                              </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <footer class="footer"></footer>
+   </div> 
+    <div class="modal_login-register"></div>
+    <div class="form_login"></div>
+    <div class="form_register"></div>
+    <div class="form_search"></div>
+</body>
+<script src="./assets/js/header.js"></script>
+<script src="assets/js/search.js"></script>
+</html>

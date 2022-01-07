@@ -1,0 +1,105 @@
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.img-cart-list {
+    width: 50px;
+}
+.cart-name-product {
+    color: #000;
+}
+.pro-qty {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3px;
+}
+.qtybtn {
+    background-color: rgb(59, 59, 59);
+    color: aliceblue;
+    border: 0;
+    border-radius: 4px;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+}
+.pro-qty input {
+    outline: none;
+    border-radius: 3px;
+}
+.cart-right-bot {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+.cart-right-bot a {
+    background-color: #fff;
+    color: #000;
+    padding: 3px 10px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+.cart-right-bot a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.pro-remove {
+    text-align: center;
+}
+.pro-remove a {
+    color: #000;
+    text-align: center;
+}
+.cart-left-top-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cart-left-bot {
+    margin-top: 20px;
+}
+.cart-left-bot-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.btn-apply,
+.btn-estimate {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+
+
+
+
+/* banner */
+.cart-banner {
+    background-image: url('../img/banner/banner_lienhe.jpg');
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+.cart-banner-title {
+    color: white;
+}
+.cart-banner-link-a {
+    color: white;
+}
+.cart-banner-link-a::after {
+    content: "/";
+    color: white;
+    padding-left: 8px;
+}
+.cart-banner-span {
+    color: white;
+}
