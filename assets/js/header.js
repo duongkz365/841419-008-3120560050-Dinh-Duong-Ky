@@ -601,6 +601,7 @@ function register(){
         obj.fullName = fullNameElement.value;
         obj.cart = [];
         obj.postion = 'customer';
+        obj.order = [];
         let listUser = getListUserFromLocalStorage();
         listUser.push(obj);
         pushListUserToLocalStorage(listUser);
